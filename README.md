@@ -4,12 +4,12 @@
 - `GET /books`
 - `POST /books`
     - Request Body eg:
-```json
-{
-    "title": "example title",
-    "author": "example author"
-}
-```
+    ```json
+    {
+        "title": "example title",
+        "author": "example author"
+    }
+    ```
 - `PUT /books`
     - Request body eg:
     ```json
