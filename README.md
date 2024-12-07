@@ -1,5 +1,7 @@
 # golibraryapi
 
+Base url: [library.hamzarafi.com](library.hamzarafi.com)
+
 ## Endpoints:
 - `GET /books`
 - `POST /books`
