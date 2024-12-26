@@ -4,6 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
 
@@ -21,6 +22,8 @@ var books = []book{
 
 func main() {
 	router := gin.Default()
+
+	router.Use(cors.Default())
 	gin.SetMode(gin.ReleaseMode)
 
 	router.GET("/books", getBooks)
