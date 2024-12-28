@@ -101,7 +101,7 @@ func updateBook(c *gin.Context) {
 		}
 
 		books[i] = newBookData
-		c.IndentedJSON(http.StatusOK, gin.H{"message": "book updated"})
+		c.IndentedJSON(http.StatusOK, newBookData)
 		return
 	}
 
